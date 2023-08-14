@@ -4,7 +4,7 @@
  *
  * Description: program for printing b write
  *
- * Return: Always 0 (Success)
+ * Return: 1 (error)
  */
 
 int main(void)
