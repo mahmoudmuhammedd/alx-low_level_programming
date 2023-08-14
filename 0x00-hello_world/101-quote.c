@@ -2,13 +2,14 @@
 /**
  * main - Entry point
  *
- * Description: program for printing
+ * Description: program for printing b write
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-printf("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+char quote[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+write(1, quote, 59);
 return (1);
 }
