@@ -2,14 +2,13 @@
 /**
  * main - Entry point
  *
- * Description: 'the program's description'
- * @parameter: describe the parameter
+ * Description: program for printing
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-printf("and that piece of art is useful" - Dora Korpar, 2015-10-19\n");
+printf("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
 return (1);
 }
