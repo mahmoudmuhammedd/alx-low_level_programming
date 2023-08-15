@@ -11,10 +11,12 @@
 int main(void)
 
 {
-char ch
-for (ch = 97; ch < 123; ch++)
+char ch = 'a';
+while (ch <= 'z')
 {
 	putchar(ch);
+	ch++;
 }
+putchar("\n");
 return (0);
 }
