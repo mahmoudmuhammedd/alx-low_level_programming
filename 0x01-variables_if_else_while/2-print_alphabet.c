@@ -9,8 +9,12 @@
  */
 
 int main(void)
-char(i);
-for (i = 97; i < 123; i++)
+
 {
-	putchar(i);
+int ch
+for (ch = 97; ch < 123; ch++)
+{
+	putchar(ch);
+}
+return (0);
 }
