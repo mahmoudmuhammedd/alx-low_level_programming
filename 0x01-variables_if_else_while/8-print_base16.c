@@ -13,12 +13,12 @@ int main(void)
 	int num = 0;
 	char ch = 'A';
 
-	if (num <= 9)
+	while (num <= 9)
 	{
 		putchar(num + '0');
 		num++;
 	}
-	else if (ch <= 'F')
+	while (ch <= 'F')
 	{
 	putchar(ch);
 	ch++;
