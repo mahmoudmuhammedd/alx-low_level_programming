@@ -15,10 +15,10 @@ int main(void)
 	while (num <= 9)
 {
 	putchar(num + '0');
-	putchar('\,\ ');
+	putchar(",");
+	putchar(' ');
 	num++;
 }
-	putchar('$');
 	putchar('\n');
 	return (0);
 }
