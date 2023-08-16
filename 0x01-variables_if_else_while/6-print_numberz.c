@@ -3,20 +3,21 @@
 /**
  * main - Entry point
  *
- * Description: 'the program's description'
+ * Description: Printing digits by putchar
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int i = 0;
+	int num = 0;
 
-	while (i <= 9)
+	while (num <= 9)
 	{
-		printf("%d", i);
-		i++;
+		putchar(num + '0');
+		num++;
 	}
-	printf("\n");
+	putchar('\n');
+
 	return (0);
 }
