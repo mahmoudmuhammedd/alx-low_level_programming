@@ -18,7 +18,7 @@ int main(void)
 		putchar(num + '0');
 		num++;
 	}
-	else if (ch <= F)
+	else if (ch <= 'F')
 	{
 	putchar(ch);
 	ch++;
