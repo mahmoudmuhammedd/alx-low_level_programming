@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * 
+ *
  * Description: putchar printer
  *
  * Return: Always 0 (Success)
