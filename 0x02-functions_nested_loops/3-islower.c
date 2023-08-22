@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * islower - detects lower case
+ * _islower - detects lower case
  *
- * Return: Always 0 (Success)
+ * @c: check input of function
+ *
+ * Return: return 1 if 'c' is lowercase or always (0) (Sucess)
  */
 
 int _islower(int c)
