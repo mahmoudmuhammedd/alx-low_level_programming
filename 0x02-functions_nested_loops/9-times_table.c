@@ -13,9 +13,10 @@ void times_table(void)
 	while (j <= 9)
 	{
 		times_table = i * j;
-		_putchar(times_table);
+		printf("%d, ", times_table);
 		j++;
 
 	}
+	_putchar('\n');
 	}
 }
