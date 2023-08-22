@@ -4,7 +4,7 @@
 /**
  * print_to_98 - print all natural numbers
  *
- * @n - input
+ * @n: input
  */
 
 void print_to_98(int n)
