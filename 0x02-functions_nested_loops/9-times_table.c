@@ -6,15 +6,14 @@
 
 void times_table(void)
 {
-	int i, j = 0, times_table;
+	int i, j, times_table;
 
 	for (i = 0; i <= 9; i++)
 	{
-	while (j <= 9)
+	for (j = 0; j <= 9; j++)
 	{
 		times_table = i * j;
 		printf("%d, ", times_table);
-		j++;
 
 	}
 	_putchar('\n');
