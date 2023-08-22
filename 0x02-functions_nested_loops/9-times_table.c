@@ -6,13 +6,13 @@
 
 void times_table(void)
 {
-	int i, j;
+	int i, j, times_table;
 
-	for (i = 0; i <= 10; i++)
+	for (i = 0; i <= 9; i++)
 	{
-	while (j <= 9)
+	for (j = 0; j <= 9; j++)
 		times_tables = i * j;
 		_putchar(times_table);
-		j++;
+
 	}
 }
