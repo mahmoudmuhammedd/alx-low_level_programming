@@ -8,13 +8,7 @@
 
 int _islower(int c)
 {
-	char ch[27];
-
-	for (c = 0; c < 26; c++)
-	{
-	char[ch] = 'a' + c;
-	}
-
-	char[ch] = '\0';
-	islower();
+	if (c >= 97 && c <= 122)
+		return (1);
+	return (0);
 }
