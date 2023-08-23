@@ -10,6 +10,7 @@ void print_numbers(void)
 
 {
 	int i;
+	_putchar();
 
 	for (i = 0; i <= 9; i++)
 	{
