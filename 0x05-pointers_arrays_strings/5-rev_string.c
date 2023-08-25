@@ -18,6 +18,6 @@ void rev_string(char *s)
 	{
 		temp = s[l];
 		s[l] = s[i - 1 - l];
-		s[i - 1  -l] = temp;
+		s[i - 1 - l] = temp;
 	}
 }
