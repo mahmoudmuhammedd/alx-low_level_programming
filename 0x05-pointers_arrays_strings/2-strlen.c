@@ -14,7 +14,7 @@ int _strlen(char *s)
 	int strcount;
 
 	for (strcount = 0; *s != '\n'; s++)
-		strcount++;
+		++strcoun+;
 
 	return (strcount);
 }
