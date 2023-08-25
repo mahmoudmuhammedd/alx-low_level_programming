@@ -4,7 +4,7 @@
 /**
  * _puts - prints string followerd by a newline
  *
- * @str - input parameter for string
+ * @str: input parameter for string
  * Return: returns string value
  */
 
