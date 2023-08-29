@@ -21,7 +21,7 @@ void print_array(int *a, int n)
 		{
 		printf("%d, ", a[i]);
 		}
-		else if (i == n)
+		else if
 		{
 			printf("%d", a[i]);
 		}
