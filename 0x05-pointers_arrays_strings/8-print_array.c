@@ -3,7 +3,7 @@
 /**
  * print_array - print array in order
  *
- * @i: input parameter for array
+ * @a: input parameter for array
  *
  * @n: element parameter input
  *
@@ -17,9 +17,9 @@ void print_array(int *a, int n)
 
 	for (i = 0; i <= n; i++)
 	{
-		if (i != (n-1))
+		if (i != (n - 1))
 		{
-		printf("%d ", a[i]);
+		printf("%d, ", a[i]);
 		}
 		else if (i == n)
 		{
