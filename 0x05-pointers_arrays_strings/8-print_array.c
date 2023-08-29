@@ -1,9 +1,13 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - check the code for
+ * print_array - print array in order
  *
- * Return: Always 0.
+ * @i: input parameter for array
+ *
+ * @n: element parameter input
+ *
+ * Return: returns nothing.
  */
 
 void print_array(int *a, int n)
@@ -13,13 +17,13 @@ void print_array(int *a, int n)
 
 	for (i = 0; i <= n; i++)
 	{
-		if (i < n)
+		if (i != (n-1))
 		{
-		printf("a[%d], ", i);
+		printf("%d ", a[i]);
 		}
 		else if (i == n)
 		{
-			printf("a[%d]", i);
+			printf("%d", a[i]);
 		}
 	}
 	printf("\n");
