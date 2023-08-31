@@ -2,9 +2,11 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * _pow_recursion - get x power y
+ * @x: input parameter
+ * @y: input parameter
  *
- * Return: Always 0.
+ * Return: depends on the value of y
  */
 
 int _pow_recursion(int x, int y)
