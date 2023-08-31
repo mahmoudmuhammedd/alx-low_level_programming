@@ -2,7 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * _strlen_recursion - string length
+ *
+ * @s: pointer for string
  *
  * Return: Always 0.
  */
@@ -12,6 +14,6 @@ int _strlen_recursion(char *s)
 	int n = 0;
 
 	if (*s == '\0')
-		return n;
-	_strlen_recursion(n + '49');
+		return (n);
+	n += _strlen_recursion(s + 1) + 1;
 }
