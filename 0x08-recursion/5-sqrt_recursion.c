@@ -4,6 +4,7 @@
 /**
  * _sqrt_recursion - returns value of square root
  * @n: input parameter
+ * @r: input parameter
  * Return: value of square root
  */
 int _sqr(int n, int r);
@@ -20,7 +21,7 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * _sqrt - calculate value of sqrt
+ * _sqr - calculate value of sqrt
  * @r: input parameter
  * @n: parameter for square root
  *
