@@ -6,7 +6,7 @@
  * @n: input parameter
  * Return: value of square root
  */
-
+int _sqr(int n, int r);
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
