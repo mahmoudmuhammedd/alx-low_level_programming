@@ -4,6 +4,7 @@
 /**
  * is_prime_number - function to print prime numbers
  * @n: input parameter
+ * @check: input parameter
  * Return: prime number
  */
 int prime(int n, int check);
