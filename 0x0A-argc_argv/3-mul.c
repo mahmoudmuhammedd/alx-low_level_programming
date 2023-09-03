@@ -7,13 +7,13 @@
  * @argv: list
  * Return: 0 if ok 1 if error
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	int prod;
 
 	if (argc == 3)
 	{
-		prod = argv[1] * argv[2];
+		prod = atoi(argv[1]) * atoi(argv[2]);
 		printf("%d\n", prod);
 	}
 	else
