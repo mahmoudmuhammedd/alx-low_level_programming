@@ -12,18 +12,13 @@ int main(int argc, char *argv[])
 	int money = atoi(argv[1]), i, leastcents = 0;
 	int cents[] = {25, 10, 5, 2, 1};
 
-	if (argc != 2)
+	if (argc == 2)
 	{
-		printf("Error\n");
-		return (1);
-	}
-	else if (argv[1] < 0)
-	{
-		printf("0\n");
-	}
-	else
-	{
+		int money = atoi(argv[1]), i, leastcents = 0;
+		int cents[] = {25, 10, 5, 2, 1};
+
 		for (i = 0; i < 5; i++)
+		{
 			if (money >= cents[i])
 			{
 				leastcents += money / cents[i];
@@ -33,7 +28,14 @@ int main(int argc, char *argv[])
 					break;
 				}
 			}
+		}
 	}
 	printf("%d\n", leastcents);
+	}
+	else
+	{
+		printf("Error\n");
+		return (1);
+	}
 	return (0);
 }
