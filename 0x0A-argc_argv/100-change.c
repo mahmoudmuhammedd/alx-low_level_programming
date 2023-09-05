@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 	else
 	{
 		for (i = 0; i < 5; i++)
-			if (money >= cents(i])
+			if (money >= cents[i])
 			{
 				leastcents += money / cents[i];
 				money = money % cents[i];
@@ -34,6 +34,6 @@ int main(int argc, char *argv[])
 				}
 			}
 	}
-	printf("%d\n", least cents);
+	printf("%d\n", leastcents);
 	return (0);
 }
