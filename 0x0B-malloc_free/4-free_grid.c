@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include "3-alloc_grid.c"
 /**
  * free_grid - free grid
  * @grid: the address of the two dimensional grid
