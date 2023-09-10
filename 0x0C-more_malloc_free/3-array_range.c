@@ -24,7 +24,7 @@ int *array_range(int min, int max)
 	{
 		return (NULL);
 	}
-	while (i >= min && i <= max)
+	while (i >= min || i <= max)
 	{
 		m[i] = min;
 		i++;
