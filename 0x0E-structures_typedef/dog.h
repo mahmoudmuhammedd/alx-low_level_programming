@@ -1,13 +1,17 @@
-#include <stdio.h>
-#include "dog.h"
+#ifndef DOG_H
+#define DOG_H
 
 /**
- * main - check the code
- *
+ * dog - poppy
+ * @name: input for name
+ * @age: input for age
+ * @owner: input for owner
  * Return: Always 0.
  */
 struct dog{
-char * name;
+char *name;
 float age;
-char * owner
+char *owner;
 };
+
+#endif
