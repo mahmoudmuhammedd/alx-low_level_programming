@@ -2,15 +2,19 @@
 #include "dog.h"
 
 /**
- * init_dog - fn for dog
- * struct dog - dog
- * @d: struct var
+ * init_dog - intialize a fn
+ * @d: dog init
  * @name: input for name
  * @age: input for age
  * @owner: input for owner
- * Return: Always 0.
+ * Return: Void.
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-struct dog d = {{'\0'}, 0, {'\0'}};
+	if (d)
+	{
+		d->name = name;
+		d->age = age;
+		d->owner = owner;
+	}
 }
