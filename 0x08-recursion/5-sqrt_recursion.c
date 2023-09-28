@@ -32,7 +32,7 @@ int _sqr(int n, int r)
 {
 	if (r * r  == n)
 		return (r);
-	else if (r * r <  n)
+	else if (r * r >  n)
 		return (-1);
 	return (_sqr(n, r + 1));
 }
