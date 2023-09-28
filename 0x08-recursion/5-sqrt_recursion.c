@@ -16,7 +16,7 @@ int _sqr(int n, int r);
 
 int _sqrt_recursion(int n)
 {
-	if (n == 0)
+	if (n < 0)
 		return (-1);
 	return (_sqr(n, 0));
 }
@@ -26,7 +26,7 @@ int _sqrt_recursion(int n)
  * @r: input parameter
  * @n: parameter for square root
  * Return: natural sqrt
- */ 
+ */
 
 int _sqr(int n, int r)
 {
