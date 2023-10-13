@@ -1,12 +1,13 @@
 #include <stdlib.h>
 
 /**
- * main - check the code
+ * main - print file name
  *
  * Return: Always 0.
  */
 
 int main(void)
 {
-	_putchar(file name is : "%d", __FILE__);
+	_putchar(file name is : "%s\n", __FILE__);
+	return (0);
 }
